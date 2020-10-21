@@ -1,0 +1,6 @@
+spring:
+  jms:
+    servicebus:
+      connection-string: <your_connection_string>
+      idle-timeout: 1800000
+      topic-client-id: <your_subscription_id>
